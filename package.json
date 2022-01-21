@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "deploy": "bash deploy.sh",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Hopingocean/vue-press/issues"
   },
-  "homepage": "https://github.com/Hopingocean/vue-press#readme"
+  "homepage": "https://github.com/Hopingocean/vue-press#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
 }
