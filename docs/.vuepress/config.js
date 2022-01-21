@@ -1,5 +1,5 @@
 module.exports = {
-	base: '/vue-press/',
+	base: '/LeeO/',
 	title: 'VuePress',
 	description: 'A VuePress Demo',
 	themeConfig: {
